@@ -38,7 +38,7 @@
           <label for="message">IL TUO MESSAGGIO</label>
           <textarea 
             id="message" 
-            [(ngModel)]="customMessage" 
+            (input)="onMessageChange($event)" 
             rows="6" 
             placeholder="Scrivi qui il tuo messaggio e poi clicca sotto per inviare..." 
             required>
