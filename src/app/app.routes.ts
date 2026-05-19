@@ -8,5 +8,5 @@ export const routes: Routes = [
     { path: '', component: Home }, 
     { path: 'informazioni', component: Informazioni },
     { path: 'esperienza', component: Experience },
-    { path: 'contattami', component: Contact },
+    { path: 'contattami', component: Contact},
 ];
